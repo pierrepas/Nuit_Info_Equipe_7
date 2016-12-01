@@ -7,10 +7,20 @@ body
 {
 	background-color: #483D6B;
 }
+
+header
+{
+	margin-bottom: 3em;
+	background-color: #29ABE2;
+	border-bottom: solid 3px black;
+	padding: 1em;
+}
+
 h1
 {
 	font-family: 'arial';
 	font-size: 3em;
+	color: #C1FEE1;
 }
 
 div.container{
@@ -24,7 +34,8 @@ div.container{
 
 #lapinou
 {
-	width: 200px;
+	width: 100px;
+	margin-right: 20px;
 }
 
 #lapinou_div
@@ -38,4 +49,21 @@ div.container{
 {
 	display:flex;
 	justify-content:center;
+}
+#lune
+{
+	display:block;
+	width:40em;
+	margin-left:auto;
+	margin-right:auto;
+	border: solid 2px black;
+}
+a
+{
+	text-decoration:none;
+	color:#C1FEE1;
+}
+a:visited
+{
+	color:#C1FEE1;
 }
