@@ -3,6 +3,10 @@
 	margin: 0;
 	padding:0;
 }
+#index
+{
+	overflow:hidden;
+}
 body
 {
 	background-color: #483D6B;
@@ -14,6 +18,11 @@ header
 	background-color: #29ABE2;
 	border-bottom: solid 3px black;
 	padding: 1em;
+}
+
+nav
+{
+	margin-top: 3%;
 }
 
 h1
@@ -58,12 +67,21 @@ div.container{
 	margin-right:auto;
 	border: solid 2px black;
 }
+
+
 a
 {
 	text-decoration:none;
 	color:#C1FEE1;
+	padding:1%;
+	margin:1%;
+	margin-left:0;
 }
 a:visited
 {
 	color:#C1FEE1;
+}
+a:hover
+{
+	color:#483D6B;
 }
