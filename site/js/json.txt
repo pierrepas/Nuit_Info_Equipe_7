@@ -1,0 +1,38 @@
+{
+	"personnages":
+	{
+		"Perso1": 
+		{
+			"Nom": "Porcheron"
+			"Prenom": "Romain"
+			"Age": 6
+			"Taille": 1.40
+			"Position_X": 0
+			"Position_Y": 0
+		},
+		{
+			"perso2":
+			{
+				"Nom": "Refugie"
+				"Prenom": "Robert"
+				"Age": 25
+				"Taille": 1..74
+				"Position_X": 0
+				"Position_Y": 0
+			}
+		},
+		{
+			"perso3":
+			{
+				"Nom": "Lambert"
+				"Prenom": "Tim"
+				"Age": 56
+				"Taille": 1.90
+				"Position_X": 0
+				"Position_Y": 0
+			}
+		}
+	}
+	
+	
+}
