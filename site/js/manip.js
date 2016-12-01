@@ -1,4 +1,3 @@
-$(document).ready(function() {
 	var text = '{ "personnages" : [' +
 '{ "firstName":"John" , "lastName":"Doe", "age":"18", "pos_x":"200","pos_y":"300" },' +
 '{ "firstName":"Anna" , "lastName":"Smith", "age":"18", "pos_x":"400","pos_y":"200" },' +
@@ -8,10 +7,11 @@ $(document).ready(function() {
 	var jsonperso = JSON.parse(persoprincipal);
 	
 	var img = $('<svg width="10" height="10"><circle cx="5" cy="5" r="2" stroke="blue" stroke-width="4" fill="blue" /></svg>');
-	console.log(jsonperso.personnage[0]);
-	var div = $('<div class="perso" id='+jsonperso.personnage[0].id+'>').css("position", "absolute");                    
+	// console.log(jsonperso.personnage[0]);
+	var div = $('<div class="perso" id="persoprincipal">').css("position", "absolute");                    
 	var x = jsonperso.personnage[0].pos_x + 'px';
 	var y = jsonperso.personnage[0].pos_y + 'px';
+	persolol = jsonperso.personnage[0];
 	div.css("left", x);
 	div.css("top", y);
 	div.append(img);
@@ -27,4 +27,3 @@ $(document).ready(function() {
 		div.append(img);
 		$(" .container ").append(div);
     });
-});
