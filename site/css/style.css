@@ -15,11 +15,19 @@ h1
 
 div.container{
 	border: 1px solid;
+<<<<<<< HEAD
 	margin: 20px;
 	height: 500px;
 	background-image:url(../images/image.jpg);
+=======
+	margin: 0% 10% 0% 10%;
+	height: 0;
+	width: 80%;
+	background-image:url(../images/ville.png);
+>>>>>>> a11b5c52c08b7ca84a3e23256519d4a20a8b51c3
 	background-size:100% 100%;
 	background-repeat: no-repeat;
+	padding-top: 45%;
 }
 
 #lapinou
@@ -38,4 +46,13 @@ div.container{
 {
 	display:flex;
 	justify-content:center;
+}
+
+#dialog{
+	background-color: grey;
+	border: 1px solid;
+	margin: 0% 10% 0% 10%;
+	height: 60px;
+	width: 80%;
+
 }
