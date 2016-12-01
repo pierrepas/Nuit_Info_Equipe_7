@@ -3,8 +3,19 @@
 	margin: 0;
 	padding:0;
 }
+body
+{
+	background-color: #483D6B;
+}
+h1
+{
+	font-family: 'arial';
+	font-size: 3em;
+}
+
 div.container{
 	border: 1px solid;
+	margin: 20px;
 	height: 500px;
 	background-image:url(../images/image.jpg);
 	background-size:100% 100%;
@@ -15,6 +26,14 @@ div.container{
 {
 	width: 200px;
 }
+
+#lapinou_div
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
 #entete
 {
 	display:flex;

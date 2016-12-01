@@ -14,8 +14,8 @@
     <body>
 	<header>
 		<div id='entete'>
-			<img src='images\lapinou_face.png' alt='lapinou' id='lapinou' >
-    			<div id='lapinou_div'><h1>Migrant simulator 2017</h1></div>
+			<div><img src='images\lapinou_face.png' alt='lapinou' id='lapinou' ></d
+    			<h1>Migrant simulator 2017</h1>
 		</div>
 	</header>
     </body>
