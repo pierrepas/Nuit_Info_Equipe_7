@@ -47,12 +47,3 @@ div.container{
 	display:flex;
 	justify-content:center;
 }
-
-#dialog{
-	background-color: grey;
-	border: 1px solid;
-	margin: 0% 10% 0% 10%;
-	height: 60px;
-	width: 80%;
-
-}
