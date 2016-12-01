@@ -22,7 +22,7 @@ header
 
 nav
 {
-	margin-top: 3%;
+	margin-top: 20px;
 }
 
 h1
@@ -44,6 +44,7 @@ div.container{
 #lapinou
 {
 	width: 100px;
+	heigh: 160px;
 	margin-right: 20px;
 }
 
@@ -73,8 +74,8 @@ a
 {
 	text-decoration:none;
 	color:#C1FEE1;
-	padding:1%;
-	margin:1%;
+	padding:3px;
+	margin:3px;
 	margin-left:0;
 }
 a:visited
