@@ -5,10 +5,13 @@
 }
 div.container{
 	border: 1px solid;
-	height: 500px;
-	background-image:url(../images/image.jpg);
+	margin: 0% 10% 0% 10%;
+	height: 0;
+	width: 80%;
+	background-image:url(../images/ville.png);
 	background-size:100% 100%;
 	background-repeat: no-repeat;
+	padding-top: 45%;
 }
 
 #lapinou
