@@ -5,11 +5,6 @@
 }
 div.container{
 	border: 1px solid;
-<<<<<<< HEAD
-	margin: 10px;
-=======
-	margin: 20px;
->>>>>>> d291f1d3576928c76c53ab821662b8736ca1d898
 	height: 500px;
 	background-image:url(../images/image.jpg);
 	background-size:100% 100%;
