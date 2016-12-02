@@ -1,0 +1,17 @@
+#sol
+{
+	height: 20px;
+	width: 100%;
+	background-color: blue;
+}
+
+.danger
+{
+	width: 100px;
+	height: 100px;
+}
+
+main
+{
+	margin: 10px 20px 150px 30px;
+}

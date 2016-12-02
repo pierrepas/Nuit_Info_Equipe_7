@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'war_is_overregular';
+    src: url('font/war/War is Over.ttf') format('ttf'),
+    	url('font/war/war_is_over-webfont.woff2') format('woff2'),
+         url('font/war/war_is_over-webfont.woff') format('woff');
+
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+
+}
+
+nav
+{
+	font-family: Arial, sans-serif;
+}
+
+h1, h2
+{
+	font-family: 'Arvo', Georgia, Times, serif;
+}
+
+h2
+{
+	text-align: center;
+	padding: 20px;
+}
+
+section
+{
+	height: 100vh;
+}
+
+#associations
+{
+	display: flex;
+}
+
+article
+{
+	margin: auto;
+}
+
+.article
+{
+	text-align: center;
+	margin: 35px 30px;
+}
+
+.miniature
+{
+	height: 150px;
+	border-radius: 10px;
+}
+
+.miniature:hover
+{
+	box-shadow: 2px 2px #555555;
+}
+
+p
+{
+	margin: 10px;
+}
+
+#easter_egg
+{
+	color: #D3D3D3
+}
+
+#test1
+{
+	background-color: red;
+}
+
+#associationsSection
+{
+	background-color: #D3D3D3;
+}
+
+#lapinou
+{
+	width: 100px;
+	heigh: 160px;
+	margin-right: 20px;
+}
+
+#lapinou_div
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+#entete
+{
+	display:flex;
+	justify-content:center;
+}
+
+#headerSection
+{
+	margin-bottom: 3em;
+	background-color: #CBCBB7;
+	border-bottom: solid 3px black;
+	padding: 1.5em;
+}
+
+nav
+{
+	margin-top: 1em;
+	font-size: 1em;
+}
+
+
