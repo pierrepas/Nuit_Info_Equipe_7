@@ -17,32 +17,9 @@
 
 }
 
-a
-{
-	text-decoration:none;
-	color:#985B5B;
-	padding:3px;
-	margin:3px;
-	margin-left:0;
-}
-a:visited
-{
-	color:#985B5B;
-}
-a:hover
-{
-	color:#483D6B;
-}
-
 nav
 {
 	font-family: Arial, sans-serif;
-}
-
-h1
-{
-	font-size: 6em;
-	color: #985B5B;
 }
 
 h1, h2
